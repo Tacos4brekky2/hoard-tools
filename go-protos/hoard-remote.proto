@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/Tacos4brekky2/hoard-tools/go-grpc/hoard-remote";
+option go_package = "github.com/Tacos4brekky2/hoard-tools/go-grpc/hoardremote";
 
 service RemoteService {
     rpc FunctionName (Message) returns (Message);

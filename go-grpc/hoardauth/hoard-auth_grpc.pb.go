@@ -4,7 +4,7 @@
 // - protoc             v5.28.2
 // source: hoard-auth.proto
 
-package hoard_auth
+package hoardauth
 
 import (
 	context "context"

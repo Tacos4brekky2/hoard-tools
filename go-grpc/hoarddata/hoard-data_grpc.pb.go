@@ -4,7 +4,7 @@
 // - protoc             v5.28.2
 // source: hoard-data.proto
 
-package hoard_data
+package hoarddata
 
 import (
 	context "context"

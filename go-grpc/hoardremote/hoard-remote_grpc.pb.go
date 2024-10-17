@@ -4,7 +4,7 @@
 // - protoc             v5.28.2
 // source: hoard-remote.proto
 
-package hoard_remote
+package hoardremote
 
 import (
 	context "context"

@@ -4,7 +4,7 @@
 // - protoc             v5.28.2
 // source: hoard-compute.proto
 
-package hoard_compute
+package hoardcompute
 
 import (
 	context "context"

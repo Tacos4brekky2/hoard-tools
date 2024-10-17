@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/Tacos4brekky2/hoard-tools/go-grpc/hoard-data";
+option go_package = "github.com/Tacos4brekky2/hoard-tools/go-grpc/hoarddata";
 
 service DataService {
     rpc FetchData (FetchRequest) returns (Document);

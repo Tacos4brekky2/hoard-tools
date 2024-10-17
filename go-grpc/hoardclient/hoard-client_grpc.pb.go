@@ -4,7 +4,7 @@
 // - protoc             v5.28.2
 // source: hoard-client.proto
 
-package hoard_client
+package hoardclient
 
 import (
 	context "context"

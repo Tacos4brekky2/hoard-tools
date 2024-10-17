@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/Tacos4brekky2/hoard-tools/go-grpc/hoard-auth";
+option go_package = "github.com/Tacos4brekky2/hoard-tools/go-grpc/hoardauth";
 
 service AuthService {
     rpc FunctionName (Message) returns (Message);
