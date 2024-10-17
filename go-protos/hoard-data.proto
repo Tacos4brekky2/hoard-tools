@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option go_package = "github.com/Tacos4brekky2/hoard-tools/go-grpc/hoard-data";
+
+service DataService {
+    rpc FetchData (FetchRequest) returns (Document);
+    rpc ReadData (ReadRequest) returns (Document);
+    rpc WriteData (Document) returns (Message);
+}
+
+message Message {
+    string ID = 1;
+    string Body = 2;
+}
+
+message FetchRequest {
+    string ID = 1;
+    string URL = 2;
+    string RequestMethod = 3;
+    map<string, string> Headers = 4;
+}
+
+message ReadRequest {
+    string ID = 1;
+    string Database = 2;
+    string Collection = 3;
+    map<string, string> Filters = 4;
+}
+
+message Document {
+    string ID = 1;
+    map<string, string> DocumentMeta = 2;
+    map<string, string> Data = 3;
+}
+
+message DocumentMeta {
+    string LastModified = 1;
+    string Source = 2;
+}
